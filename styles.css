@@ -1,0 +1,116 @@
+body{
+    min-width: 290px;
+    background-color: #000000c5;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+
+#navbar{ 
+   position: fixed;
+   min-width: 290px;
+   margin: auto 0;
+   top: 0px;
+   left: 0px;
+   width: 300px;
+   height: 100%;
+   border-right: solid;
+   border-color: rgb(255, 255, 255);
+}
+header{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+}
+#navbar ul{
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+    
+#navbar ul li{
+    border-top: 1px solid white;
+}
+#navbar a{
+    display: block;
+    padding: 6px 36px;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+li{
+ display: list-item;   
+ text-align: -webkit-match-parent;
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+section article{
+    margin: 15px;
+    font-size: 0.96em;
+}
+.main-section header{
+    text-align: left;
+}
+code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+article ul li a{
+    color:rgb(45, 66, 255)
+}
+
+@media only screen and (max-width: 815px){
+    #navbar ul {
+    margin-left: 10%;    
+    border: 1px solid;
+    max-width: 80%;
+    height: 207px;
+    text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 815px){
+#navbar {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+    
+}}
+@media only screen and (max-width: 815px){
+#main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+}}
